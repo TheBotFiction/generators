@@ -33,3 +33,10 @@ $ hygen new graphql-microservice --name Sample --model MyModel --port 42999
       --model MyModel \
       --port 42999
     ```
+
+# Development
+TL;DR: Use VSCode container
+```bash
+$ cd templates
+$ code .
+```
