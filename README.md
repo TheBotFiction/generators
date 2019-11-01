@@ -14,7 +14,7 @@ $ hygen [name-of-generator] [name-of-action]
 ```
 Ex:
 ```bash
-$ hygen new graphql-microservice --name Sample --model MyModel --port 42999
+$ hygen new graphql --name Sample --model MyModel --port 42999
 ```
 
 # List of generator
@@ -25,10 +25,10 @@ $ hygen new graphql-microservice --name Sample --model MyModel --port 42999
     $ hygen dev add-container --name MyContainer
     ```
 - `new`
-  - `graphql-microservice`: Generate new GraphQL/Prisma2 microservice  
+  - `graphql`: Generate new GraphQL/Prisma2 microservice  
     Ex:
     ```bash
-    $ hygen new graphql-microservice \
+    $ hygen new graphql \
       --name MyService \
       --model MyModel \
       --port 42999
