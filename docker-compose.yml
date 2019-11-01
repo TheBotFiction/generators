@@ -9,9 +9,9 @@ services:
     stdin_open: true
     working_dir: /workspace
     command: sleep infinity
-    container_name: 'templates.botfi'
+    container_name: 'generators.botfi'
     environment:
-      NAME: templates.botfi
+      NAME: generators.botfi
     volumes:
       - .devcontainer/.yarnrc:/root/.yarnrc:ro
       - yarn-cache:/yarn-cache
