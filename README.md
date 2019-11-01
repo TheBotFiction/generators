@@ -8,8 +8,8 @@ $ yarn global add hygen
 ```
 - Clone the code and execute generator
 ```bash
-$ git clone git@github.com:TheBotFiction/templates.git
-$ cd templates
+$ git clone git@github.com:TheBotFiction/generators.git
+$ cd generators
 $ hygen [name-of-generator] [name-of-action]
 ```
 Ex:
@@ -37,6 +37,6 @@ $ hygen new graphql --name Sample --model MyModel --port 42999
 # Development
 TL;DR: Use VSCode container
 ```bash
-$ cd templates
+$ cd generators
 $ code .
 ```

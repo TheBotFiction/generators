@@ -1,5 +1,5 @@
 {
-  "name": "@botfi/templates",
+  "name": "@botfi/generators",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
